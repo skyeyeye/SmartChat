@@ -10,7 +10,7 @@ export const generateToken = (userId, res) => {
     httpOnly: true, // prevent XSS attacks cross-site scripting attacks
     // sameSite: "strict", // CSRF attacks cross-site request forgery attacks
     sameSite: "None",
-    secure: process.env.NODE_ENV === "production", // ✅ only true on Render
+    secure: true, // ✅ only true on Render
     // secure: process.env.NODE_ENV !== "development",
   });
 
