@@ -98,7 +98,7 @@ export const useAuthStore = create((set, get) => ({
           transports: ["websocket"],
       },
     });
-    socket.connect();
+    // socket.connect();
 
     set({ socket: socket });
 
