@@ -86,7 +86,7 @@ export const useAuthStore = create((set, get) => ({
       set({ isUpdatingProfile: false });
     }
   },
-
+  
   connectSocket: () => {
     const { authUser } = get();
     if (!authUser || get().socket?.connected) return;
@@ -94,6 +94,8 @@ export const useAuthStore = create((set, get) => ({
     const socket = io(BASE_URL, {
       query: {
         userId: authUser._id,
+         withCredentials: true,
+          transports: ["websocket"],
       },
     });
     socket.connect();
