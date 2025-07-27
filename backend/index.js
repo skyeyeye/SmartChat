@@ -26,7 +26,7 @@ app.use(cookieParser());
 // );
 const allowedOrigins = [
   "http://localhost:5173",              // local development
-  process.env.FRONTEND_URL,             // deployed frontend
+  "https://smart-chat-jet.vercel.app"           // deployed frontend
 ];
 
 app.use(
