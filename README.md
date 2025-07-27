@@ -1,39 +1,19 @@
-# ✨ Full Stack Realtime Chat App ✨
+# ✨ Full Stack Realtime Chat App ✨ [Website Link](https://smart-chat-jet.vercel.app/)
+A production-ready **MERN**-based chat application featuring **real-time messaging**, secure authentication, and online user tracking. Built with modern technologies for performance, scalability, and ease of deployment.
 
+---
+## 🚀 Highlights
 
-Highlights:
+- 🌟 **Tech Stack:** MongoDB, Express.js, React (Vite), Node.js, Socket.io, TailwindCSS, DaisyUI  
+- 🎃 **Authentication & Authorization:** Secure JWT-based system with cookies  
+- 👾 **Real-Time Messaging:** Powered by Socket.io for instant communication  
+- 🚀 **Online User Status:** Live presence tracking  
+- 👌 **State Management:** Global state handled by Zustand  
+- 🐞 **Error Handling:** Comprehensive client & server error management  
+- ⭐ **Deployment Ready:** Configured for Render (backend) and Vercel (frontend)  
+- ⏳ **And much more!**
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+---
 
-### Setup .env file
-
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
-
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-
-NODE_ENV=development
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
+## 🖼 Preview
+**Screenshots coming soon** 
