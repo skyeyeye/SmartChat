@@ -1,6 +1,10 @@
 # ✨ Full Stack Realtime Chat App ✨ [Website Link](https://smart-chat-jet.vercel.app/)
 A production-ready **MERN**-based chat application featuring **real-time messaging**, secure authentication, and online user tracking. Built with modern technologies for performance, scalability, and ease of deployment.
 
+![GitHub stars](https://img.shields.io/github/stars/skyeyeye/SmartChat?style=social)
+![GitHub forks](https://img.shields.io/github/forks/skyeyeye/SmartChat?style=social)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
 ---
 ## 🚀 Highlights
 
@@ -37,6 +41,22 @@ A production-ready **MERN**-based chat application featuring **real-time messagi
 - Socket.io
 
 ---
+## Folder Structure
+```bash
+SmartChat/
+ ├── backend/
+ │   ├── routes/
+ │   ├── controllers/
+ │   ├── models/
+ │   ├── lib/
+ │   └── ...
+ ├── frontend/
+ │   ├── src/
+ │   ├── components/
+ │   └── ...
+ ├── README.md
+ └── ...
+```
 ## ⚡ Features
 
 - ✅ Real-time one-to-one chat  
@@ -129,6 +149,7 @@ http://localhost:5173
 ```
 (Default Vite dev server port)
 ---
+
 ### 📦 Deployment
 - **Frontend: Vercel**
 
@@ -140,6 +161,7 @@ http://localhost:5173
 ---
 - Pull requests are welcome.
 - For major changes, please open an issue first.
-  
-💖 Made with ❤️ by Ayush Saha
+
+---
+**💖 Made with ❤️ by Ayush Saha**
   ---
