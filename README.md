@@ -46,6 +46,13 @@ A production-ready **MERN**-based chat application featuring **real-time messagi
 - ✅ Secure API calls (CORS + HTTPS)  
 - ✅ Persistent sessions  
 ---
+## 🔒 Security Features
+- **JWT Authentication** stored in **HTTP-only cookies** to prevent XSS attacks.
+- **CSRF Protection** using `sameSite=strict` and conditional `secure` cookies.
+- **Password Hashing** implemented with bcrypt.
+- **CORS Configuration** with `credentials: true` for safe cross-origin requests.
+- **Input Validation** on both client and server.
+---
 # 📡 API Endpoints
 
 ## Auth Routes
